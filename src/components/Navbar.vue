@@ -32,7 +32,7 @@ const isActiveLink = (routePath) => {
                 <RouterLink
                   to="/registration"
                   :class="[ isActiveLink('/registration') ? 'bg-green-900' : 'hover:bg-gray-900', 'text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2']"
-                  >Registeration</RouterLink
+                  >Registration</RouterLink
                 >
                 <RouterLink
                   to="/description"
