@@ -19,6 +19,7 @@ const nextStep = () => {
         showError.value = true;
         return
     };
+    showError.value = false;
     if (activeStep.value < 2) activeStep.value++;
 };
 
