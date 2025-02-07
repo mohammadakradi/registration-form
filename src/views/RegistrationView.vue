@@ -1,7 +1,5 @@
 <script lang="ts" setup>
 import Wizard from '@/components/Wizard.vue';
-
-
 </script>
 
 <template>

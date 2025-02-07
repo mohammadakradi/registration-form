@@ -34,6 +34,11 @@ const isActiveLink = (routePath) => {
                   :class="[ isActiveLink('/registration') ? 'bg-green-900' : 'hover:bg-gray-900', 'text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2']"
                   >Registeration</RouterLink
                 >
+                <RouterLink
+                  to="/description"
+                  :class="[ isActiveLink('/description') ? 'bg-green-900' : 'hover:bg-gray-900', 'text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2']"
+                  >Description</RouterLink
+                >
               </div>
             </div>
           </div>
